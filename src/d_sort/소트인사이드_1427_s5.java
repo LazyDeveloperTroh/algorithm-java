@@ -1,11 +1,10 @@
-package sort;
+package d_sort;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class 소트인사이드_1427_s5 {
