@@ -1,4 +1,4 @@
-package dijkstra;
+package g_dijkstra;
 
 import java.io.BufferedReader;
 import java.io.IOException;
