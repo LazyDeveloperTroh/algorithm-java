@@ -3,6 +3,7 @@ package e_search.이코테;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -21,6 +22,7 @@ public class 고정점찾기_이코테 {
         int end = numbers.size() - 1;
         int result = binarySearch(numbers, (start + end) / 2, start, end);
         System.out.println("result = " + result);
+
     }
 
     private static int binarySearch(List<Integer> numbers, int target, int start, int end) {
